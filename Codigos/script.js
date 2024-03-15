@@ -7,6 +7,10 @@ app.get("/proibido", (req, res) =>{
     res.status(403).send("Acesso Proibido")
 });
 
+app.post("/post", (req, res) => {
+    res.status(200).send("POST recebido");
+})
+
 app.get("/notfound", (req, res) =>{
     res.status(404).send("Não encontrado")
 });
