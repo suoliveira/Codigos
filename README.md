@@ -4,7 +4,8 @@ Para executar o arquivo utilize a extensão 'Thunder Client' do VScode.
 
 Endpoints:
 
-200: http://localhost:3000/
+200: http://localhost:3000/ e post http://localhost:3000/post
+
 
 401: http://localhost:3000/nao
 
